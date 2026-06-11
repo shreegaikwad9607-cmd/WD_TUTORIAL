@@ -1,17 +1,27 @@
-.img{
-    height: 50vh;
-    width: 100vw;
-    background-image:url(hanuman.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+
+p{
+    color: green;
+    text-indent: 500px;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    text-decoration-style: dotted;
 
 }
-.c1{
+h1{
+   text-align: center;
+   text-shadow: 10px 10px 10px rebeccapurple;
+}
+h1{
+     font-family: cursive;
+    font-size: 40px;
+    font-style: oblique;
+    font-variant: small-caps;
+    font-weight: 900;
+}
+section{
     height: 50vh;
-    width: 100vh;
-    background:linear-gradient(pink rgb(244, 142, 159) rgb(255, 100, 126) rgb(198, 54, 14) ) ;
+    width: 100%;
+    background-image:url(hanuman.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

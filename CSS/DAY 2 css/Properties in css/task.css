@@ -1,0 +1,18 @@
+section{
+    height:90vh;
+    width:100%;
+    border-style: dashed;
+   
+}
+div{
+    border: 1px solid teal;
+    background-color: aqua;
+    width: 295px;
+    display:inline-block;
+}
+img{
+    height: 300px;
+    width:295px;
+  
+   
+}
