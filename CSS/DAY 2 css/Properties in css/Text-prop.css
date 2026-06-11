@@ -1,0 +1,14 @@
+/* Text prop  */
+p{
+    color: aquamarine;
+    text-indent: 300px;
+    text-decoration: underline;
+    text-decoration-color: blueviolet;
+    text-decoration-style: double;
+    text-transform: capitalize;
+}
+h1{
+    text-align: center;
+    text-shadow: 20px 15px 10px chartreuse;
+
+}

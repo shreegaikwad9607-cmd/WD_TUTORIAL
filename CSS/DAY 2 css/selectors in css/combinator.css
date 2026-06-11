@@ -1,0 +1,21 @@
+/* #Combinator selector */
+/* -> combinator selector is used to perform disign or styles on parents child  elements */
+/* I . DESCENDENT COMBINATOR SELECTOR */
+div p{
+    color: red;
+}
+
+/* II . Child COMBINATOR SELECTOR */
+div>p{
+    font-style: italic;
+}
+/* III . ADJSCENT COMBINATOR SELECTOR */
+div+p{
+    color: blueviolet;
+}
+/* IV .Genral Sibling COMBINATOR SELECTOR */
+div~p{
+    background-color: pink;
+}
+
+

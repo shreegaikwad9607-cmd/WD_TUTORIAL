@@ -1,0 +1,124 @@
+
+    /* --- GENERAL STYLES (Just to make it look nice) --- */
+    body {
+      font-family: sans-serif;
+      padding: 20px;
+      max-width: 600px;
+      background-color: #f9f9f9;
+    }
+    .section {
+      background: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    /* ==========================================
+       1. LINK STATES (:link, :visited)
+       ========================================== */
+    /* Unvisited links are blue */
+    a:link {
+      color: #0066cc;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    /* Visited links turn purple */
+    a:visited {
+      color: #800080;
+    }
+
+
+    /* ==========================================
+       2. USER INTERACTION (:hover, :active, :focus)
+       ========================================== */
+    /* Links and buttons change background/color when hovered */
+    a:hover {
+      text-decoration: underline;
+      color: #004499;
+    }
+
+    .btn {
+      padding: 10px 20px;
+      border: none;
+      background-color: #0066cc;
+      color: white;
+      border-radius: 4px;
+      font-size: 16px;
+      transition: 0.1s; /* Makes the transition smooth */
+    }
+
+    .btn:hover {
+      background-color: #004499;
+      cursor: pointer;
+    }
+
+    /* Button shrinks slightly the exact moment it is clicked */
+    .btn:active {
+      transform: scale(0.95);
+      background-color: #002244;
+    }
+
+    /* Input gets a blue ring when clicked/tabbed into */
+    input[type="text"] {
+      padding: 8px;
+      font-size: 16px;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+    }
+
+    input[type="text"]:focus {
+      border-color: #0066cc;
+      outline: none;
+      box-shadow: 0 0 5px rgba(0, 102, 204, 0.5);
+    }
+
+
+    /* ==========================================
+       3. STRUCTURAL STATES (:first-child, :last-child, :nth-child)
+       ========================================== */
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      padding: 10px;
+      border-bottom: 1px solid #ccc;
+    }
+
+    /* Highlights the very first list item */
+    li:first-child {
+      font-weight: bold;
+      border-top: 2px solid #0066cc;
+    }
+
+    /* Removes the bottom border from the very last list item */
+    li:last-child {
+      border-bottom: none;
+    }
+
+    /* Applies a light gray background to every even-numbered item */
+    li:nth-child(even) {
+      background-color: #f1f1f1;
+    }
+
+
+    /* ==========================================
+       4. FORM STATES (:checked, :disabled)
+       ========================================== */
+    /* Grays out and changes cursor for disabled buttons */
+    .btn:disabled {
+      background-color: #cccccc;
+      color: #666666;
+      cursor: not-allowed;
+      transform: none; /* Prevents the :active scale effect */
+    }
+
+    /* Highlights the label text when the checkbox is checked */
+    input[type="checkbox"]:checked + label {
+      color: #0066cc;
+      font-weight: bold;
+      text-decoration: underline;
+    }
