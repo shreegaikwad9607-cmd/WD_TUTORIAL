@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.navbar{
+    height:80px;
+    background-color:rgb(96,90,90);
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:0 30px;
+}
+
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+
+.logo img{
+    width:120px;
+    height:auto;
+}
+
+
+.logo i{
+    font-size:25px;
+}
+
+
+.right{
+    display:flex;
+    gap:60px;
+    align-items:center;
+}
+
+
+.right a{
+    text-decoration:none;
+    font-size:22px;
+}
