@@ -1,0 +1,526 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.outerall {
+    width: 100%;
+    height: 2943px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+.all {
+    height: 760px;
+    width: 100%;
+}
+
+.main {
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/8027eb3f-343a-499d-9892-e683c12e3cb1/web/IN-en-20260608-TRIFECTA-perspective_d70af879-e407-4aee-8615-4c82210065d5_large.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 760px;
+    width: 100vw;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.main .box {
+    height: 760px;
+    width: 100%;
+    opacity: 0.55;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+header {
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.hbox {
+    width: 87vw;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    position: relative;
+    z-index: 1;
+}
+
+.nlogo {
+    width: 298.667px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signin {
+    width: 625px;
+    height: 38px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 5px;
+}
+
+.lang {
+    height: 32px;
+    ;
+    width: 123.85px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border: 1px solid white;
+    border-radius: 8px;
+
+}
+
+.lang i {
+    width: 16.0001px;
+    height: 16px;
+
+}
+
+.lang select {
+    background-color: transparent;
+    color: inherit;
+    border: none;
+}
+
+.login {
+    width: 76.9px;
+    height: 32px;
+    display: flex;
+    color: white;
+    background-color: red;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(236, 20, 20);
+    border-radius: 8px;
+
+}
+
+.login a {
+    width: 45.9001px;
+    height: 17.5667px;
+    text-decoration: none;
+    font-weight: 500;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sell {
+    height: 660px;
+    width: 100vw;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    z-index: inherit;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-1 {
+    height: 592px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin: -32px 0px 0px 0px;
+    padding: 0px 32px 32px 32px;
+
+}
+
+.subbox-1 {
+    box-sizing: border-box;
+    width: 508px;
+    height: 272px;
+    display: flex;
+    flex-direction: column;
+    margin: 100px 258px 0px 258px;
+    position: relative;
+    text-align: center;
+}
+
+.text-1 {
+    width: 508px;
+    height: 272.4px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+h1 {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-block-end: 8px;
+    margin-block-start: 0px;
+    margin: 0px 0px 8px 0px
+}
+
+p {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    height: 20px;
+}
+
+.text-2 {
+    font-family: sans-serif;
+    width: 508px;
+    height: 120px;
+
+}
+
+text-2 h3 {
+    height: 48px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.signup {
+    width: 508px;
+    height: 72px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+}
+
+.signup .mail {
+    width: 319.083px;
+    height: 56px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    display: flex;
+    margin: 8px;
+}
+
+.signup .mail input {
+    background-color: transparent;
+    color: inherit;
+    width: 319.083px;
+    height: 56px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    padding: 0px 0px 0px 12px;
+}
+
+
+.btn {
+    width: 180.917px;
+    height: 56px;
+    display: flex;
+    margin: 0 0.5rem;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background-color: red;
+}
+
+button {
+    background-color: transparent;
+    border-style: none;
+    font-family: sans-serif;
+    font-size: large;
+    color: white;
+}
+
+.outter-curve {
+    box-sizing: border-box;
+    overflow-x: hidden;
+    position: relative;
+    width: 100%;
+    height: 6.25rem;
+    z-index: 1;
+}
+
+.curve-container {
+    box-sizing: border-box;
+    color: white;
+}
+
+.before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -2;
+    margin-top: -.25rem;
+    border-radius: inherit;
+    background: linear-gradient(to right, rgba(33, 13, 22, 1) 16%, rgba(184, 40, 105, 1), rgba(229, 9, 20, 1), rgba(184, 40, 105, 1), rgba(33, 13, 22, 1) 84%);
+
+}
+
+@media (min-width: 960px) {
+    .before::before {
+        width: 150%;
+        left: -25%;
+    }
+}
+
+.before {
+    box-sizing: border-box;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    border: solid .25rem transparent;
+    border-top-left-radius: 40% 100%;
+    border-top-right-radius: 40% 100%;
+    border-bottom: none;
+    background: radial-gradient(50% 500% at 50% -420%, rgba(64, 97, 231, 0.4) 80%, rgba(0, 0, 0, 0.1) 100%), black;
+    background-clip: padding-box;
+}
+
+.curve {
+    box-sizing: border-box;
+    height: 90px;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+.curvem {
+    width: 100%;
+    /* Spans across your page */
+    height: 90px;
+    /* Increase this number to make the curve deeper */
+    border-top: 5px solid red;
+    /* Controls the line thickness and color */
+    border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+    /* Pulls the start/end points way up */
+    background: transparent;
+    position: relative;
+    align-self: self-start;
+
+
+}
+
+.section2 {
+    height: 2215px;
+    width: 100%;
+    margin: 0 auto 0 auto;
+    z-index: 2;
+    box-sizing: border-box;
+    color: white;
+
+
+
+}
+
+.subsec {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.trending {
+    height: 257.1px;
+    width: 928px;
+    margin-bottom: 4rem;
+    box-sizing: border-box;
+
+}
+
+.trending-now {
+    width: 928px;
+    height: 32px;
+    box-sizing: border-box;
+}
+
+.movies {
+    width: 928px;
+    height: 208.8px;
+    /* background-color: azure; */
+    margin-top: 1rem;
+    box-sizing: border-box;
+
+}
+
+.submovie {
+    height: 208.8px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+
+}
+
+.movielist {
+    border-radius: 0.5rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.horilist {
+    position: relative;
+    display: flex;
+    height: 208.8px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    list-style-position: outside;
+    list-style-image: none;
+    list-style-type: none;
+    overflow-y: visible;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    scroll-snap-type: x mandatory;
+    scroll-margin-inline-start: 2.5em;
+}
+
+.movie1 {
+    width: 184px;
+    height: 208.8px;
+    padding: 0.4rem 1.375rem;
+    scroll-margin-inline-start: 2.4rem;
+    flex-shrink: 0;
+    scroll-snap-align: start;
+    display: flex;
+    box-sizing: border-box;
+    list-style: none;
+    list-style-position: outside;
+    list-style-image: none;
+    list-style-type: none;
+}
+
+.click1 {
+    width: 140px;
+    height: 196px;
+    position: relative;
+    padding: 0;
+    background: rgb(35, 35, 35);
+    border: none;
+    border-radius: 0.5rem;
+    /* -webkit-transition: -webkit-transform 0.2s ease-in-out; */
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+    overflow-x: visible;
+    overflow-y: visible;
+    box-sizing: border-box;
+}
+
+.movie-1 {
+    width: 8.75rem;
+    height: 12.25rem;
+    list-style: none;
+    list-style-position: outside;
+    list-style-image: none;
+    list-style-type: none;
+    color: inherit;
+    font: inherit;
+    text-transform: none;
+    box-sizing: border-box;
+    position: relative;
+    border-radius: 0.5rem;
+    background-color: rgb(35, 35, 35);
+}
+
+.mmovie1 {
+    width: 140px;
+    height: 196px;
+    animation-delay: 0ms;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 0.5rem;
+    z-index: 1;
+    background-color: rgb(35, 35, 35);
+    animation: loading 4000ms infinite linear;
+    animation-name: loading;
+    animation-duration: 4000ms;
+    animation-timing-function: linear;
+    animation: loading 4000ms infinite linear;
+    animation-name: loading;
+    animation-duration: 4000ms;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    /* animation-timeline: ;
+    animation-range-start: ;
+    animation-range-end: ; */
+    box-sizing: border-box;
+}
+
+.movieimg1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 0.5rem;
+    background-size: cover;
+    z-index: 2;
+}
+
+.num {
+    height: 102px;
+    width: 48.9667px;
+    font-size: 5rem;
+    bottom: 0rem;
+    left: -1.375rem;
+    position: absolute;
+    z-index: 2;
+    box-sizing: border-box;
+}
+
+.numno {
+    position: relative;
+    font-size: 5rem;
+    font: inherit;
+}
+
+.actno {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    text-wrap-mode: nowrap;
+    white-space-collapse: collapse;
+    width: 1px;
+    display: flex;
+    box-sizing: border-box;
+
+}

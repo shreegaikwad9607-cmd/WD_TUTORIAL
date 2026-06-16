@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Opacity Presentation Example</title>
+  <style>
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      height: 100vh;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    h1 {
+      margin-bottom: 30px;
+      font-size: 2.5rem;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    }
+
+    .presentation-container {
+      display: flex;
+      gap: 40px;
+    }
+
+    .card {
+      background-color: #ffffff;
+      color: #333333;
+      width: 250px;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+      text-align: center;
+    }
+
+    /* 4. THE OPACITY STATES */
+    .opaque {
+      opacity: 1.0; /* Default state */
+    }
+
+    .semi-transparent {
+      opacity: 0.5; /* 50% Visibility */
+    }
+
+    .transparent {
+      opacity: 0.1; /* 10% Visibility */
+    }
+
+    /* Decorative element inside the cards */
+    .badge {
+      background-color: #ff4757;
+      color: white;
+      padding: 5px 10px;
+      border-radius: 20px;
+      font-size: 0.8rem;
+      display: inline-block;
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Understanding CSS Opacity</h1>
+
+  <div class="presentation-container">
+
+    <!-- CARD 1: FULLY OPAQUE -->
+    <div class="card opaque">
+      <span class="badge">Default</span>
+      <h2>opacity: 1;</h2>
+      <p>This element is completely solid. The background behind it is hidden.</p>
+    </div>
+
+    <!-- CARD 2: SEMI TRANSPARENT -->
+    <div class="card semi-transparent">
+      <span class="badge">50% Fade</span>
+      <h2>opacity: 0.5;</h2>
+      <p>This element lets the purple background show through perfectly.</p>
+    </div>
+
+    <!-- CARD 3: NEARLY INVISIBLE -->
+    <div class="card transparent">
+      <span class="badge">90% Fade</span>
+      <h2>opacity: 0.1;</h2>
+      <p>This element is almost fully see-through but still takes up space.</p>
+    </div>
+
+  </div>
+
+</body>
+</html>

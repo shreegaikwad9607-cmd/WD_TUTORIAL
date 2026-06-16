@@ -1,0 +1,43 @@
+div{
+    height: 300px;
+    width: 300px;
+    background: radial-gradient(rgb(234, 206, 206),rgb(231, 121, 139),rgb(205, 220, 137)
+    );
+    margin-top: 80px;
+    margin: left 80px;
+    animation: amt 1s ease-in-out 0s infinite reverse ;
+    animation-fill-mode: both;
+}
+@keyframes amt {
+    0%{
+        background: radial-gradient(rgba(17, 196, 17, 0.902),rgb(185, 214, 101), rgb(232, 237, 61));
+        border-radius: 72px;
+        transform: rotate(72deg);
+        float: right;
+        transform: scale(1.7);
+
+    }
+    20%{
+        background: radial-gradient(rgb(123, 63, 63),rgb(29, 197, 107),pink);
+        border-radius: 144px;
+        transform: rotate(144deg);
+        margin-top: 400px;
+
+
+    }
+    40%{
+        background: radial-gradient(rgb(142, 61, 61),rgb(86, 224, 141),rgb(145, 145, 232) );
+        border-radius: 216px;
+        transform: rotate(216px);
+        transform: scale(1.4);
+
+    }
+    80%{
+        background: radial-gradient(rgb(159, 116, 123),rgb(134, 134, 206),rgb(189, 189, 233));
+        border: radius 288px;
+        transform: rotate(288px);
+        transform: skew(45deg);
+    }
+
+    
+}
