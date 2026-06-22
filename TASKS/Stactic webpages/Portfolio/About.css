@@ -33,8 +33,6 @@ nav:hover{
 }
 section{
     display: flex;
-    height: 100vh;
-    background-color: rgb(75, 74, 74);
     width: 100vw;
     flex-direction: column;
 }
@@ -78,8 +76,32 @@ section{
     padding: 15px;
     border-radius: 1em;
     margin-right: 1vw ;
+    gap: 1rem;
 }
 .right h1{
     color: rgb(119, 119, 206);
     text-align: justify;
 }
+.right summary{
+    font-size: medium;
+    display: inline;
+    cursor: pointer;
+
+}
+.right summary i{
+    color:slateblue;
+    rotate: 270deg;
+    animation: bouncearrow 1.5s  infinite ease-in-out;
+}
+
+
+@keyframes bouncearrow {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(3px); /* Bounces down 10 pixels */
+  }
+}
+
+
